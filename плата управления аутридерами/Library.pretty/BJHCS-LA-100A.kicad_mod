@@ -1,0 +1,337 @@
+(footprint "BJHCS-LA-100A"
+	(version 20260206)
+	(generator "pcbnew")
+	(generator_version "10.0")
+	(layer "F.Cu")
+	(descr "LEM Current Transducer (https://www.lem.com/sites/default/files/products_datasheets/la_25-p.pdf)")
+	(tags "current transducer")
+	(property "Reference" "REF**"
+		(at -2.413 -7.767 0)
+		(layer "F.SilkS")
+		(uuid "6f61c289-705a-45ca-b91b-ccc5a5664b15")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "BJHCS-LA-100A"
+		(at 23 1 0)
+		(layer "F.Fab")
+		(uuid "84906d3b-9a17-430e-a019-e14a61f478b1")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "3045a486-fc1f-4399-8162-455f19af138b")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "68703f43-95b3-417c-b70f-48b0f4a52cd4")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(duplicate_pad_numbers_are_jumpers no)
+	(fp_line
+		(start -4.7 -6.92)
+		(end -4.7 -5.75)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "efa782e5-5b1e-4c28-8831-8cef96bbd4e5")
+	)
+	(fp_line
+		(start -4.45 -6.67)
+		(end -4.45 7.92)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "ce95000a-a71e-4df9-87f6-a2a55912493d")
+	)
+	(fp_line
+		(start -4.45 7.92)
+		(end 32.39 7.92)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "cb283a50-3747-4345-bdf4-323994af5448")
+	)
+	(fp_line
+		(start -3 -6.92)
+		(end -4.7 -6.92)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "e1606265-2340-4db8-8214-f9c91505683a")
+	)
+	(fp_line
+		(start 32.39 -6.67)
+		(end -4.45 -6.67)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "7be13afa-3814-4e0f-bf97-3477956246d6")
+	)
+	(fp_line
+		(start 32.39 7.92)
+		(end 32.39 -6.67)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "c2c1d068-fae1-40db-81f9-c5b07dbe04a5")
+	)
+	(fp_line
+		(start -4.58 -6.8)
+		(end -4.58 8.05)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "66a1e247-0f3a-45bf-8a59-f27086000cd2")
+	)
+	(fp_line
+		(start -4.58 -6.8)
+		(end 32.52 -6.8)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "f12d572c-9758-419b-9377-f210a4766426")
+	)
+	(fp_line
+		(start 32.52 8.05)
+		(end -4.58 8.05)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "485e63dd-06b9-43f4-988c-a0175dedebbf")
+	)
+	(fp_line
+		(start 32.52 8.05)
+		(end 32.52 -6.8)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "b0987ff1-7a32-4797-bfcb-582ab62e714b")
+	)
+	(fp_line
+		(start -4.33 -5.55)
+		(end -3.33 -6.55)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "f37ac4ee-0dde-435b-a2e0-cd0883ae70e4")
+	)
+	(fp_line
+		(start -4.33 7.8)
+		(end -4.33 -5.55)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "9d0bd589-4409-43db-9309-158065d98b6f")
+	)
+	(fp_line
+		(start -3.33 -6.55)
+		(end 32.27 -6.55)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "c295fd96-dd9e-4bc6-929a-c4959698b870")
+	)
+	(fp_line
+		(start 10.16 1.25)
+		(end 13.97 6.33)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "7592678a-15e1-44dd-bd78-65f5ec284188")
+	)
+	(fp_line
+		(start 12.7 -3.83)
+		(end 12.7 1.25)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "89f6c97e-ac3d-466b-9b6c-46db9a17ee3d")
+	)
+	(fp_line
+		(start 12.7 1.25)
+		(end 10.16 1.25)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "05a297e2-8cd7-40b1-9004-53748e23c433")
+	)
+	(fp_line
+		(start 13.97 6.33)
+		(end 17.78 1.25)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "990e5534-9ff9-40a3-96b9-cd6b5ad44570")
+	)
+	(fp_line
+		(start 15.24 -3.83)
+		(end 12.7 -3.83)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "7ea86a8c-fb1a-4fc1-9029-205020576f74")
+	)
+	(fp_line
+		(start 15.24 1.25)
+		(end 15.24 -3.83)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "9c7ed8cc-42cb-4632-b307-97d4aa9f17e8")
+	)
+	(fp_line
+		(start 17.78 1.25)
+		(end 15.24 1.25)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "ea41d098-10ea-4821-8638-3a6173c3a904")
+	)
+	(fp_line
+		(start 32.27 -6.55)
+		(end 32.27 7.8)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "4feb97af-b3f7-43b1-9968-cae294283d5c")
+	)
+	(fp_line
+		(start 32.27 7.8)
+		(end -4.33 7.8)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "da914c46-5f0a-4249-94cd-abeccdd31941")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 23 -1 0)
+		(layer "F.Fab")
+		(uuid "b523783c-3bf9-405a-bf4f-01044b94d7fb")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" thru_hole rect
+		(at 0 0)
+		(size 2.2 2.2)
+		(drill 1.2)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "f625105c-2403-47dc-8ac5-43b1af4220af")
+	)
+	(pad "2" thru_hole circle
+		(at 5.08 0)
+		(size 2.2 2.2)
+		(drill 1.2)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "3545950a-20f6-42b3-b22a-1c3c551a0d82")
+	)
+	(pad "3" thru_hole circle
+		(at 27.94 0)
+		(size 2.2 2.2)
+		(drill 1.2)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "9a9feb29-d813-4f52-aaf5-00e5c0a1d8a6")
+	)
+	(embedded_fonts no)
+	(model "${KICAD10_3DMODEL_DIR}/Sensor_Current.3dshapes/LEM_LA25-P.step"
+		(hide yes)
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+	(model "D:/платы kicad/LA 55-P--3DModel-STEP-510211.STEP"
+		(offset
+			(xyz 14 -0.5 0)
+		)
+		(scale
+			(xyz 1.0001 1.0001 1.0001)
+		)
+		(rotate
+			(xyz -90 -0 -0)
+		)
+	)
+)
